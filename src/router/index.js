@@ -17,8 +17,8 @@ const router = createRouter({
       component: HomePage,
     },
     {
-      path: "/test",
-      name: "test",
+      path: "/roe/:locale",
+      name: "roe",
       component: Test,
     },
   ],

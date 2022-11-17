@@ -2,18 +2,18 @@
   <div class="logo">
     <p class="logo__text">172</p>
     <div class="logo-cover">
-      <p class="logo-cover__text">Code of conduct</p>
+      <p class="logo-cover__text"><slot></slot></p>
     </div>
   </div>
 </template>
 
 <style scoped>
 .logo {
-  @apply w-min m-auto relative;
+  @apply relative;
 }
 
 .logo__text {
-  @apply text-[10rem] text-amber-300;
+  @apply text-[10rem] text-opacity-20 text-center text-amber-300;
 }
 
 .logo-cover {

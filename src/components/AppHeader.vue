@@ -6,8 +6,15 @@ export default {
   components: { HeaderNavigation, HeaderLogo },
   data() {
     return {
-      defaultLanguages: ["en", "de", "it", "es", "ru"],
+      defaultLanguages: ["en", "de", "fr", "it", "es", "gr", "ru"],
     };
+  },
+  computed: {
+    title() {
+      const currentPage = this.$route.name;
+
+      return currentPage === "main" ? "code of conduct" : "rules of engagement";
+    },
   },
 };
 </script>
@@ -15,11 +22,12 @@ export default {
   <nav id="navigation">
     <HeaderNavigation :languages="defaultLanguages"></HeaderNavigation>
   </nav>
-  <router-link :to="{ name: 'home' }">
-    <HeaderLogo />
+  <router-link :to="{ name: 'roe' }">
+    <HeaderLogo>{{ title }}</HeaderLogo>
   </router-link>
 </template>
 <style scoped>
 nav {
+  @apply mt-4 mx-4;
 }
 </style>

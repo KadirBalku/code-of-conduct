@@ -3,8 +3,11 @@
 @tailwind utilities;
 
 @layer base {
+  :root {
+    font-size: 12px;
+  }
   html {
-    @apply font-bebas bg-zinc-50 m-0 p-0;
+    @apply font-fira bg-zinc-50 m-0 p-0;
   }
 
   html,
@@ -33,13 +36,13 @@
   }
 }
 
-/* bebas-neue-regular - latin */
-
+/* fira-code-regular - latin */
 @font-face {
-  font-family: "Bebas Neue";
+  font-family: "Fira Code";
   font-style: normal;
   font-weight: 400;
-  src: url("./assets/font/bebas-neue-v9-latin-regular.woff2") format("woff2"),
+  src: local(""),
+    url("./assets/fonts/fira-code-v21-latin-regular.woff2") format("woff2"),
     /* Chrome 26+, Opera 23+, Firefox 39+ */
-      url("./assets/font/bebas-neue-v9-latin-regular.woff") format("woff"); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+      url("./assets/fonts/fira-code-v21-latin-regular.woff") format("woff"); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
 }

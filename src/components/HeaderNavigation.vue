@@ -1,7 +1,9 @@
 <template>
   <ul class="navbar">
     <router-link
-      :to="{ name: 'main', params: { locale: 'test' } }"
+      v-for="language in languages"
+      :key="language"
+      :to="{ name: 'main', params: { locale: language } }"
       custom
       v-slot="{ navigate, isActive }"
     >
@@ -9,8 +11,6 @@
         role="link"
         class="navbar__item"
         :class="{ active: isActive }"
-        v-for="language in languages"
-        :key="language"
         @click="navigate"
       >
         <p class="navbar__link">{{ language.toUpperCase() }}</p>
@@ -38,7 +38,7 @@ export default {
 }
 
 .navbar__item {
-  @apply hover:bg-amber-300 text-2xl cursor-pointer px-2 rounded-t-3xl rounded-bl-3xl hover:underline;
+  @apply hover:bg-amber-300 hover:underline text-2xl cursor-pointer px-2 rounded-t-3xl rounded-bl-3xl;
 }
 
 .active {

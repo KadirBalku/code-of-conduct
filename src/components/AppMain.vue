@@ -10,9 +10,6 @@ import MainContent from "@/components/MainContent.vue";
 export default {
   components: { MainContent },
   props: { route: String },
-  created() {
-    console.log(this.$route.query.locale);
-  },
 };
 </script>
 
