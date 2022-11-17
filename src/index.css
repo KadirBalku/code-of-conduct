@@ -1,0 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  #app {
+    @apply flex flex-col h-screen;
+  }
+  header {
+    @apply bg-gray-900 w-full text-zinc-50 p-2;
+  }
+  main {
+    @apply flex-1 w-full;
+  }
+  footer {
+    @apply bg-gray-900 w-full;
+  }
+}
