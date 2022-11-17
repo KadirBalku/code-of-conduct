@@ -3,7 +3,7 @@
     <router-link
       v-for="language in languages"
       :key="language"
-      :to="{ name: 'main', params: { locale: language } }"
+      :to="{ name: isRoeActive ? 'roe' : 'main', params: { locale: language } }"
       custom
       v-slot="{ navigate, isActive }"
     >
@@ -26,6 +26,10 @@ export default {
       type: Array,
       required: true,
     },
+    isRoeActive: {
+      type: Boolean,
+      required: true,
+    },
   },
   data() {
     return {};
@@ -38,7 +42,7 @@ export default {
 }
 
 .navbar__item {
-  @apply text-2xl cursor-pointer px-2 rounded-t-3xl rounded-bl-3xl hover:outline-dashed outline-1 outline-amber-300  hover:bg-opacity-25 hover:bg-amber-300 hover:text-zinc-50;
+  @apply text-2xl cursor-pointer px-2 rounded-t-3xl rounded-bl-3xl lg:hover:outline-dashed outline-1 outline-amber-300  lg:hover:bg-opacity-25 lg:hover:bg-amber-300 lg:hover:text-zinc-50;
 }
 
 .active {

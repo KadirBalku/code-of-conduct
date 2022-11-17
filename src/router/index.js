@@ -1,6 +1,6 @@
 import { createRouter, createWebHistory } from "vue-router";
-import HomePage from "@/pages/HomePage.vue";
-import Test from "@/pages/TestPage.vue";
+import ConductPage from "@/pages/ConductPage.vue";
+import RoePage from "@/pages/RoePage.vue";
 
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
@@ -8,18 +8,18 @@ const router = createRouter({
     {
       path: "/",
       name: "home",
-      redirect: { name: "main", params: { locale: "en" } },
+      redirect: { name: "roe", params: { locale: "en" } },
     },
     {
-      path: "/:locale",
-      name: "main",
+      path: "/code/:locale",
+      name: "code",
 
-      component: HomePage,
+      component: ConductPage,
     },
     {
       path: "/roe/:locale",
       name: "roe",
-      component: Test,
+      component: RoePage,
     },
   ],
 });

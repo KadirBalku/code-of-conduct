@@ -7,24 +7,35 @@ export default {
   data() {
     return {
       defaultLanguages: ["en", "de", "fr", "it", "es", "gr", "ru"],
+      pageState: true,
     };
   },
   computed: {
     title() {
-      const currentPage = this.$route.name;
-
-      return currentPage === "main" ? "code of conduct" : "rules of engagement";
+      return this.pageState ? "Rules of Engagement" : "Code of Conduct";
+    },
+  },
+  methods: {
+    isPageRoe(e) {
+      if (e) {
+        this.pageState = true;
+      } else if (e === false) {
+        this.pageState = false;
+      }
     },
   },
 };
 </script>
 <template>
   <nav id="navigation">
-    <HeaderNavigation :languages="defaultLanguages"></HeaderNavigation>
+    <HeaderNavigation
+      :languages="defaultLanguages"
+      :is-roe-active="pageState"
+      @page-toggle-state="isPageRoe()"
+    ></HeaderNavigation>
   </nav>
-  <router-link :to="{ name: 'roe', params: { locale: 'en' } }">
-    <HeaderLogo>{{ title }}</HeaderLogo>
-  </router-link>
+
+  <HeaderLogo>{{ title }}</HeaderLogo>
 </template>
 <style scoped>
 nav {
