@@ -3,16 +3,43 @@
 @tailwind utilities;
 
 @layer base {
+  html {
+    @apply font-bebas bg-zinc-50 m-0 p-0;
+  }
+
+  html,
+  body {
+    @apply h-full;
+  }
+
   #app {
-    @apply flex flex-col h-screen;
+    @apply flex flex-col lg:flex-row h-screen;
   }
+
   header {
-    @apply bg-gray-900 w-full text-zinc-50 p-2;
+    @apply bg-gray-900  lg:h-screen  text-zinc-50 h-min p-3;
   }
+
+  .wrapper {
+    @apply w-full h-full flex flex-col justify-between lg:overflow-y-scroll;
+  }
+
   main {
-    @apply flex-1 w-full;
+    @apply w-fit;
   }
+
   footer {
-    @apply bg-gray-900 w-full;
+    @apply bg-gray-900 w-full p-3 text-zinc-50;
   }
+}
+
+/* bebas-neue-regular - latin */
+
+@font-face {
+  font-family: "Bebas Neue";
+  font-style: normal;
+  font-weight: 400;
+  src: url("./assets/font/bebas-neue-v9-latin-regular.woff2") format("woff2"),
+    /* Chrome 26+, Opera 23+, Firefox 39+ */
+      url("./assets/font/bebas-neue-v9-latin-regular.woff") format("woff"); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
 }

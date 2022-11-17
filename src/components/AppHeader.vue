@@ -12,15 +12,14 @@ export default {
 };
 </script>
 <template>
-  <div class="header">
+  <nav id="navigation">
     <HeaderNavigation :languages="defaultLanguages"></HeaderNavigation>
-    <router-link :to="{ name: 'home' }">
-      <HeaderLogo />
-    </router-link>
-  </div>
+  </nav>
+  <router-link :to="{ name: 'home' }">
+    <HeaderLogo />
+  </router-link>
 </template>
 <style scoped>
-.header {
-  @apply flex flex-col justify-center items-center;
+nav {
 }
 </style>

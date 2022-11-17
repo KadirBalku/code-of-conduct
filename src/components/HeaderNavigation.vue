@@ -1,6 +1,10 @@
 <template>
-  <ul class="navbar__list">
-    <router-link :to="{ name: 'home' }" custom v-slot="{ navigate, isActive }">
+  <ul class="navbar">
+    <router-link
+      :to="{ name: 'main', params: { locale: 'test' } }"
+      custom
+      v-slot="{ navigate, isActive }"
+    >
       <li
         role="link"
         class="navbar__item"
@@ -9,7 +13,7 @@
         :key="language"
         @click="navigate"
       >
-        {{ language.toUpperCase() }}
+        <p class="navbar__link">{{ language.toUpperCase() }}</p>
       </li>
     </router-link>
   </ul>
@@ -23,19 +27,25 @@ export default {
       required: true,
     },
   },
-  data() {},
+  data() {
+    return {};
+  },
 };
 </script>
 <style scoped>
-.navbar__list {
-  @apply flex flex-row gap-2;
+.navbar {
+  @apply flex justify-center gap-2;
 }
 
 .navbar__item {
-  @apply hover:bg-gray-300 px-2 cursor-pointer;
+  @apply hover:bg-amber-300 text-2xl cursor-pointer px-2 rounded-t-3xl rounded-bl-3xl hover:underline;
 }
 
 .active {
-  @apply bg-zinc-50 text-gray-900;
+  @apply bg-amber-300 text-gray-900 underline;
+}
+
+.navbar__link {
+  @apply p-2 align-middle;
 }
 </style>

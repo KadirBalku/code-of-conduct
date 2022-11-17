@@ -1,5 +1,5 @@
 import { createRouter, createWebHistory } from "vue-router";
-import HomePage from "../pages/HomePage.vue";
+import HomePage from "@/pages/HomePage.vue";
 import Test from "@/pages/TestPage.vue";
 
 const router = createRouter({
@@ -8,12 +8,12 @@ const router = createRouter({
     {
       path: "/",
       name: "home",
-      redirect: "locale",
+      redirect: { name: "main", params: { locale: "en" } },
     },
-    {},
     {
       path: "/:locale",
-      name: "locale",
+      name: "main",
+
       component: HomePage,
     },
     {
