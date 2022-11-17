@@ -38,7 +38,7 @@ export default {
 }
 
 .navbar__item {
-  @apply hover:bg-amber-300 hover:underline text-2xl cursor-pointer px-2 rounded-t-3xl rounded-bl-3xl;
+  @apply text-2xl cursor-pointer px-2 rounded-t-3xl rounded-bl-3xl hover:outline-dashed outline-1 outline-amber-300  hover:bg-opacity-25 hover:bg-amber-300 hover:text-zinc-50;
 }
 
 .active {

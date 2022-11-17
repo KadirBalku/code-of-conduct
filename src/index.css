@@ -20,7 +20,7 @@
   }
 
   header {
-    @apply bg-gray-900  lg:h-screen  text-zinc-50 h-min p-3;
+    @apply bg-gray-900 lg:h-screen text-zinc-50 h-min p-3;
   }
 
   .wrapper {
@@ -32,7 +32,7 @@
   }
 
   footer {
-    @apply bg-gray-900 w-full p-3 text-zinc-50;
+    @apply bg-gray-900 w-full h-min p-3 text-zinc-50;
   }
 }
 

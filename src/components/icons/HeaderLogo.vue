@@ -9,11 +9,11 @@
 
 <style scoped>
 .logo {
-  @apply relative;
+  @apply relative transition-colors ease-in-out duration-700 text-opacity-20 hover:text-opacity-60 text-amber-300;
 }
 
 .logo__text {
-  @apply text-[10rem] text-opacity-20 text-center text-amber-300;
+  @apply text-[10rem]  text-center;
 }
 
 .logo-cover {
@@ -21,6 +21,6 @@
 }
 
 .logo-cover__text {
-  @apply text-3xl p-0 text-center uppercase;
+  @apply text-3xl p-0 text-center uppercase text-zinc-50;
 }
 </style>
