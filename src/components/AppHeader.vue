@@ -22,7 +22,7 @@ export default {
   <nav id="navigation">
     <HeaderNavigation :languages="defaultLanguages"></HeaderNavigation>
   </nav>
-  <router-link :to="{ name: 'roe' }">
+  <router-link :to="{ name: 'roe', params: { locale: 'en' } }">
     <HeaderLogo>{{ title }}</HeaderLogo>
   </router-link>
 </template>
