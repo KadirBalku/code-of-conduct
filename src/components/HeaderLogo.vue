@@ -3,7 +3,10 @@
     <p class="logo__text">172</p>
     <div class="logo-cover">
       <router-link
-        :to="{ name: isRoeActive ? 'roe' : 'main', params: { locale: 'en' } }"
+        :to="{
+          name: isRoeActive ? 'roe' : 'conduct',
+          params: { locale: $route.params.locale },
+        }"
         ><p
           class="logo-cover__text"
           @click="this.isRoeActive = !this.isRoeActive"
@@ -17,11 +20,11 @@
 
 <style scoped>
 .logo {
-  @apply relative transition-colors ease-in-out duration-700 text-opacity-20 text-amber-300;
+  @apply relative transition-all ease-in-out duration-700 text-opacity-20 text-amber-300;
 }
 
 .active {
-  @apply text-opacity-60;
+  @apply transition-all ease-in-out duration-700 text-opacity-60;
 }
 
 .logo__text {
@@ -40,15 +43,7 @@
 <script>
 export default {
   data() {
-    return { isRoeActive: true };
-  },
-  computed: {},
-  methods: {},
-  created() {},
-  watch: {
-    isRoeActive(newRoe) {
-      this.$emit("pageToggleState", newRoe);
-    },
+    return { isRoeActive: this.$route.name === "roe" };
   },
 };
 </script>

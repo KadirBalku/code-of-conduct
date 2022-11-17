@@ -1,15 +1,17 @@
 <template>
   <section class="main" id="main">
-    <MainContent />
+    <ConductContent v-show="content === 'conduct'" />
+    <RoeContent v-show="content === 'roe'" />
   </section>
 </template>
 
 <script>
-import MainContent from "@/components/MainContent.vue";
+import ConductContent from "@/components/ConductContent.vue";
+import RoeContent from "@/components/RoeContent.vue";
 
 export default {
-  components: { MainContent },
-  props: { route: String },
+  components: { ConductContent, RoeContent },
+  props: { content: { type: String, required: true } },
 };
 </script>
 

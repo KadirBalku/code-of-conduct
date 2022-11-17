@@ -3,7 +3,10 @@
     <router-link
       v-for="language in languages"
       :key="language"
-      :to="{ name: isRoeActive ? 'roe' : 'main', params: { locale: language } }"
+      :to="{
+        name: isRoeActive ? 'roe' : 'conduct',
+        params: { locale: language },
+      }"
       custom
       v-slot="{ navigate, isActive }"
     >
@@ -26,13 +29,14 @@ export default {
       type: Array,
       required: true,
     },
-    isRoeActive: {
-      type: Boolean,
-      required: true,
-    },
   },
   data() {
     return {};
+  },
+  computed: {
+    isRoeActive() {
+      return this.$route.name === "roe";
+    },
   },
 };
 </script>

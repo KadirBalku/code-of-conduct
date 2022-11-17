@@ -11,9 +11,8 @@ const router = createRouter({
       redirect: { name: "roe", params: { locale: "en" } },
     },
     {
-      path: "/code/:locale",
-      name: "code",
-
+      path: "/conduct/:locale",
+      name: "conduct",
       component: ConductPage,
     },
     {
