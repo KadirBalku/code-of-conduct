@@ -28,7 +28,7 @@
 }
 
 .logo__text {
-  @apply text-[10rem]  text-center;
+  @apply text-[12rem]  text-center;
 }
 
 .logo-cover {
@@ -36,7 +36,7 @@
 }
 
 .logo-cover__text {
-  @apply text-3xl p-0 text-center uppercase text-zinc-50 cursor-pointer;
+  @apply text-4xl p-0 text-center uppercase text-zinc-50 cursor-pointer transition-colors ease-in-out duration-700 lg:hover:text-amber-300;
 }
 </style>
 

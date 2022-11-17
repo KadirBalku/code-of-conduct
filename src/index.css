@@ -28,11 +28,11 @@
   }
 
   main {
-    @apply w-fit;
+    @apply w-full lg:w-fit break-words;
   }
 
   footer {
-    @apply bg-gray-900 w-full h-min p-3 text-zinc-50 lg:absolute bottom-0 left-0 lg:w-min lg:m-auto border-2;
+    @apply bg-gray-900 w-full h-min p-3 text-zinc-50 lg:absolute bottom-0 left-0 lg:w-max lg:m-auto;
   }
 }
 

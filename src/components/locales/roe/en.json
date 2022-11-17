@@ -1,0 +1,102 @@
+[
+  {
+    "title": "Survey Ships",
+    "paragraph": [
+      {
+        "title": "§1 Survey ships are protected by RoE and are not to be attacked unless:",
+        "content": [
+          "The protected cargo limit is exceeded (OPC)  (exceptions: §2 - §6, armada and transwarp systems).",
+          "'USS Discovery' has status of survey ship only in systems with Mycelium Spore nodes.",
+          "in addition, see §2 - §6 and §9"
+        ]
+      },
+      {
+        "title": "The following scenarios must be accompanied by an appropriate warning message eg 'wrong node' or 'zero node' and 1 message per kill:",
+        "content": [
+          "The mine/node they are on is an empty mine/node (0 node), (except in Origin sector and transwarp systems, §3 and §4).",
+          "It is a “Botany Bay” that is mining on a node other than Data node. (except in Origin sector and transwarp systems, §3 and §4).",
+          "It is a “D'Vor/D'Vor Feesha” that is mining on a node other than  Raw Latinum/Concentrated Latinum node. (except in Origin sector and transwarp systems, §3 and §4)."
+        ]
+      }
+    ]
+  },
+  {
+    "title": "Armadas",
+    "paragraph": [
+      {
+        "title": "§2 Every ship participating in an Armada is protected by RoE, unless in a RoE void situation (see §3, §5 - §7 or §9)",
+        "content": []
+      }
+    ]
+  },
+  {
+    "title": "Origin Space",
+    "paragraph": [
+      {
+        "title": "§3 - ROE protection applies only for alliances owning that system.",
+        "content": [
+          "Every under protected cargo (UPC) survey ship on a node is protected even if the node is empty (0 node).",
+          "RoE is suspended in origin systems that have an ongoing capture event. (A capture event is when two or more alliances are scoring points).",
+          "During an ongoing capture event any alliance tags may be set to kos without the 24 hour declaration of KOS being given. The KOS marker for this duration only applies to the capture area and not to any ships outside it."
+        ]
+      }
+    ]
+  },
+  {
+    "title": "Systems requiring tokens for entry",
+    "paragraph": [
+      {
+        "title": "§4 All ships are protected by RoE (UPC and OPC) in systems requiring a cost to enter (including transwarp cells, ancient beacons, any future currencies, etc)",
+        "content": []
+      }
+    ]
+  },
+  {
+    "title": "Raids",
+    "paragraph": [
+      {
+        "title": "§5 Players actively participating in a raid (whether by attacking or defending) lose RoE protection of all ships in the system of the raid for the duration of raid.",
+        "content": []
+      }
+    ]
+  },
+  {
+    "title": "PvP Events",
+    "paragraph": [
+      {
+        "title": "§6 During active PvP events all above § of RoE are suspended, for the ships and systems mentioned in the event description.",
+        "content": []
+      }
+    ]
+  },
+  {
+    "title": "RoE Breaks",
+    "paragraph": [
+      {
+        "title": "§7 In case of a RoE break, resolve it with the offender via PM (where possible). If the dispute cannot be resolved between the affected parties, contact your Alliance diplomat or Admiral.",
+        "content": []
+      }
+    ]
+  },
+  {
+    "title": "Retaliation",
+    "paragraph": [
+      {
+        "title": "§8 If you are attacked and illegally looted (killed OPC where forbidden (see §3 + §4), the attacker is obligated to pay the amount of loot back by sending his own OPC vessel to the victim.",
+        "content": []
+      }
+    ]
+  },
+  {
+    "title": "KOS – Kill On Sight",
+    "paragraph": [
+      {
+        "title": "§9 Alliance marked enemy (KOS):",
+        "content": [
+          "If an Alliance or player is marked as KOS by your alliance, they are not protected by RoE.",
+          "Alliance representatives (Admirals / Commodores) must announce any diplomacy changes on or from enemy status (KOS) beforehand: in discord, ingame Galaxy Chat or via private message to the Admiral."
+        ]
+      }
+    ]
+  }
+]
