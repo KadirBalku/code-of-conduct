@@ -3,7 +3,7 @@
     "title": "Vermessungsschiffe",
     "paragraph": [
       {
-        "title": "§1 Vermessungsschiffe sind durch die RoE geschützt und dürfen nicht angegriffen werden, es sei denn:",
+        "title": "§1 - Vermessungsschiffe sind durch die RoE geschützt und dürfen nicht angegriffen werden, es sei denn:",
         "content": [
           "Die geschützte Frachtgrenze wird überschritten (OPC) (Ausnahmen: §2 - §6, Armada- und Transwarp-Systeme).",
           "Die 'USS Discovery' hat den Status eines Vermessungsschiffes nur in Systemen mit Myzelsporen-Knoten.",
@@ -24,7 +24,7 @@
     "title": "Armadas",
     "paragraph": [
       {
-        "title": "§2 Jedes Schiff, das an einer Armada teilnimmt, ist durch die RoE geschützt, es sei denn, es befindet sich in einer Situation, in der RoE ungültig ist (siehe §3, §5 - §7 oder §9)",
+        "title": "§2 - Jedes Schiff, das an einer Armada teilnimmt, ist durch die RoE geschützt, es sei denn, es befindet sich in einer Situation, in der RoE ungültig ist (siehe §3, §5 - §7 oder §9)",
         "content": []
       }
     ]
@@ -46,7 +46,7 @@
     "title": "Systeme, die Token für den Zugang erfordern",
     "paragraph": [
       {
-        "title": "§4 Alle Schiffe sind durch RoE (UPC und OPC) in Systemen geschützt, deren Betreten Kosten verursachen (einschließlich Transwarp-Zellen, ancient beacons, zukünftige Währungen usw.)",
+        "title": "§4 - Alle Schiffe sind durch RoE (UPC und OPC) in Systemen geschützt, deren Betreten Kosten verursachen (einschließlich Transwarp-Zellen, ancient beacons, zukünftige Währungen usw.)",
         "content": []
       }
     ]
@@ -55,7 +55,7 @@
     "title": "Raids",
     "paragraph": [
       {
-        "title": "§5 Spieler, die aktiv an einem Raid teilnehmen (egal ob sie angreifen oder verteidigen), verlieren für die Dauer des Raids den RoE-Schutz für alle Schiffe im System des Raids.",
+        "title": "§5 - Spieler, die aktiv an einem Raid teilnehmen (egal ob sie angreifen oder verteidigen), verlieren für die Dauer des Raids den RoE-Schutz für alle Schiffe im System des Raids.",
         "content": []
       }
     ]
@@ -64,7 +64,7 @@
     "title": "PvP Events",
     "paragraph": [
       {
-        "title": "§6 Während aktiver PvP-Events sind alle oben genannten § der RoE ausgesetzt, für die in der Eventbeschreibung genannten Schiffe und Systeme.",
+        "title": "§6 - Während aktiver PvP-Events sind alle oben genannten § der RoE ausgesetzt, für die in der Eventbeschreibung genannten Schiffe und Systeme.",
         "content": []
       }
     ]
@@ -73,7 +73,7 @@
     "title": "RoE Brüche",
     "paragraph": [
       {
-        "title": "§7 Im Falle eines RoE-Bruchs, kläre ihn mit dem Täter per PM (wenn möglich). Wenn der Streit zwischen den betroffenen Parteien nicht beigelegt werden kann, kontaktiere deinen Allianzdiplomaten oder Admiral.",
+        "title": "§7 - Im Falle eines RoE-Bruchs, kläre ihn mit dem Täter per PM (wenn möglich). Wenn der Streit zwischen den betroffenen Parteien nicht beigelegt werden kann, kontaktiere deinen Allianzdiplomaten oder Admiral.",
         "content": []
       }
     ]
@@ -82,7 +82,7 @@
     "title": "Vergeltung",
     "paragraph": [
       {
-        "title": "§8 Wenn du angegriffen und illegal geplündert wirst (OPC getötet, wo es verboten ist (siehe §3 + §4), ist der Angreifer verpflichtet, den Betrag der Beute zurückzuzahlen, indem er sein eigenes OPC-Schiff an das Opfer schickt.",
+        "title": "§8 - Wenn du angegriffen und illegal geplündert wirst (OPC getötet, wo es verboten ist (siehe §3 + §4), ist der Angreifer verpflichtet, den Betrag der Beute zurückzuzahlen, indem er sein eigenes OPC-Schiff an das Opfer schickt.",
         "content": []
       }
     ]
@@ -91,7 +91,7 @@
     "title": "KoS – Kill On Sight",
     "paragraph": [
       {
-        "title": "§9 Allianzen die als Feinde markiert wurden (KoS):",
+        "title": "§9 - Allianzen die als Feinde markiert wurden (KoS):",
         "content": [
           "Wenn eine Allianz oder ein Spieler von deiner Allianz als KoS markiert wird, sind sie nicht durch die RoE geschützt.",
           "Allianz-Vertreter (Admirale / Kommodore) müssen jede Änderung der Diplomatie am oder vom Feindstatus (KoS) vorher ankündigen: in Discord, im Galaxie-Chat im Spiel oder per privater Nachricht an den Admiral."

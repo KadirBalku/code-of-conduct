@@ -3,7 +3,7 @@
     "title": "Survey Ships",
     "paragraph": [
       {
-        "title": "§1 Survey ships are protected by RoE and are not to be attacked unless:",
+        "title": "§1 - Survey ships are protected by RoE and are not to be attacked unless:",
         "content": [
           "The protected cargo limit is exceeded (OPC)  (exceptions: §2 - §6, armada and transwarp systems).",
           "'USS Discovery' has status of survey ship only in systems with Mycelium Spore nodes.",
@@ -24,7 +24,7 @@
     "title": "Armadas",
     "paragraph": [
       {
-        "title": "§2 Every ship participating in an Armada is protected by RoE, unless in a RoE void situation (see §3, §5 - §7 or §9)",
+        "title": "§2 - Every ship participating in an Armada is protected by RoE, unless in a RoE void situation (see §3, §5 - §7 or §9)",
         "content": []
       }
     ]
@@ -46,7 +46,7 @@
     "title": "Systems requiring tokens for entry",
     "paragraph": [
       {
-        "title": "§4 All ships are protected by RoE (UPC and OPC) in systems requiring a cost to enter (including transwarp cells, ancient beacons, any future currencies, etc)",
+        "title": "§4 - All ships are protected by RoE (UPC and OPC) in systems requiring a cost to enter (including transwarp cells, ancient beacons, any future currencies, etc)",
         "content": []
       }
     ]
@@ -55,7 +55,7 @@
     "title": "Raids",
     "paragraph": [
       {
-        "title": "§5 Players actively participating in a raid (whether by attacking or defending) lose RoE protection of all ships in the system of the raid for the duration of raid.",
+        "title": "§5 - Players actively participating in a raid (whether by attacking or defending) lose RoE protection of all ships in the system of the raid for the duration of raid.",
         "content": []
       }
     ]
@@ -64,7 +64,7 @@
     "title": "PvP Events",
     "paragraph": [
       {
-        "title": "§6 During active PvP events all above § of RoE are suspended, for the ships and systems mentioned in the event description.",
+        "title": "§6 - During active PvP events all above § of RoE are suspended, for the ships and systems mentioned in the event description.",
         "content": []
       }
     ]
@@ -73,7 +73,7 @@
     "title": "RoE Breaks",
     "paragraph": [
       {
-        "title": "§7 In case of a RoE break, resolve it with the offender via PM (where possible). If the dispute cannot be resolved between the affected parties, contact your Alliance diplomat or Admiral.",
+        "title": "§7 - In case of a RoE break, resolve it with the offender via PM (where possible). If the dispute cannot be resolved between the affected parties, contact your Alliance diplomat or Admiral.",
         "content": []
       }
     ]
@@ -82,7 +82,7 @@
     "title": "Retaliation",
     "paragraph": [
       {
-        "title": "§8 If you are attacked and illegally looted (killed OPC where forbidden (see §3 + §4), the attacker is obligated to pay the amount of loot back by sending his own OPC vessel to the victim.",
+        "title": "§8 - If you are attacked and illegally looted (killed OPC where forbidden (see §3 + §4), the attacker is obligated to pay the amount of loot back by sending his own OPC vessel to the victim.",
         "content": []
       }
     ]
@@ -91,7 +91,7 @@
     "title": "KOS – Kill On Sight",
     "paragraph": [
       {
-        "title": "§9 Alliance marked enemy (KOS):",
+        "title": "§9 - Alliance marked enemy (KOS):",
         "content": [
           "If an Alliance or player is marked as KOS by your alliance, they are not protected by RoE.",
           "Alliance representatives (Admirals / Commodores) must announce any diplomacy changes on or from enemy status (KOS) beforehand: in discord, ingame Galaxy Chat or via private message to the Admiral."
