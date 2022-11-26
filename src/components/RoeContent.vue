@@ -1,17 +1,32 @@
-<script setup>
+<script>
 import DiscordIcon from "@/components/icons/DiscordIcon.vue";
 import ServerIcon from "@/components/icons/ServerIcon.vue";
 import LocaleParagraph from "@/components/locales/roe/TemplateParagraph.vue";
+import TitleSelection from "@/components/locales/roe/titles.json";
+
+export default {
+  components: { DiscordIcon, ServerIcon, LocaleParagraph },
+  data() {
+    return { localeTitle: TitleSelection[0] };
+  },
+  computed: {
+    pageTitle() {
+      return this.localeTitle[this.$route.params.locale]
+        ? this.localeTitle[this.$route.params.locale]
+        : "Rules of Engagement (RoE)";
+    },
+  },
+};
 </script>
 
 <template>
   <section id="roe">
     <div class="article__title">
-      <h2>Rules of Engagement</h2>
+      <h2>{{ pageTitle }}</h2>
       <div>
         <p class="article__title-info">
           <i class="article__title-icon"><ServerIcon /></i>
-          Server Sh'Raan EU-172
+          Sh'Raan EU-172
         </p>
         <p class="article__title-info">
           <i class="article__title-icon"><DiscordIcon /></i>

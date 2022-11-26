@@ -1,0 +1,102 @@
+[
+  {
+    "title": "Vaisseaux de prospection",
+    "paragraph": [
+      {
+        "title": "§1 – Les vaisseaux de prospection sont protégés par des RoE et ne doivent pas être attaqués sauf si :",
+        "content": [
+          "La limite de cargaison protégée est dépassée (OPC) (exceptions : §2 - §6, armada et systèmes transwarp).",
+          "'USS Discovery' a le statut de vaisseaux de prospection uniquement dans les systèmes avec des mine/nœuds de spores de mycélium.",
+          "Voir également §2 - §6 et §9"
+        ]
+      },
+      {
+        "title": "Les scénarios suivants doivent être accompagnés d'un message d'avertissement approprié, par exemple 'mauvais mine/nœud' ou 'mine/nœud à zéro', et d'un message lorsque vous détruisez le vaisseau prospecteur:",
+        "content": [
+          "La mine/nœud sur laquelle ils se trouvent est une mine/nœud vide (nœud 0), (sauf dans les secteurs d'origine et les systèmes de transwarp, §3 et §4).",
+          "S’il s'agit du 'Botany Bay' qui exploite une mine/nœud autre que ceux de données. (sauf dans le secteur Origine et les systèmes transwarp, §3 et §4).",
+          "S’il s'agit d’un “D'Vor/D'Vor Feesha” qui exploite une mine/nœud autre que Raw Latinum/Concentrated Latinum. (sauf dans les secteurs d'origine et les systèmes transwarp, §3 et §4)."
+        ]
+      }
+    ]
+  },
+  {
+    "title": "Armadas",
+    "paragraph": [
+      {
+        "title": "§2 – Les vaisseaux participant à une Armada est protégé par le RoE, sauf dans une situation de RoE nul (voir §3, §5 - §7 ou §9).",
+        "content": []
+      }
+    ]
+  },
+  {
+    "title": "Secteur Origine",
+    "paragraph": [
+      {
+        "title": "§3 - La protection des RoE s'applique seulement qu'aux alliances qui possèdent ce système.",
+        "content": [
+          "Chaque vaisseau de prospection avec les ressourses en dessous de la cargaison protégée (UPC) sur une mine/nœud est protégé même si le mine/nœud est vide (nœud 0).",
+          "La RoE est suspendu dans les systèmes d'origine qui ont un événement de capture en cours. (Un événement de capture est lorsque deux ou plusieurs alliances marquent des points).",
+          "Pendant un événement de capture en cours, tout marqueur d'alliance peut être mis en KOS sans que la déclaration de KOS de 24 heures soit donnée. Le marqueur KOS pour cette durée ne s'applique qu'à la zone de capture et non aux vaisseaux situés en dehors de celle-ci."
+        ]
+      }
+    ]
+  },
+  {
+    "title": "Systèmes nécessitant des jetons pour l'entrée",
+    "paragraph": [
+      {
+        "title": "§4 - Tous les vaisseaux sont protégés par le RoE (UPC et OPC) dans les systèmes nécessitant un coût d'entrée (y compris les cellules transwarp, les balises anciennes, toutes les monnaies futures, etc).",
+        "content": []
+      }
+    ]
+  },
+  {
+    "title": "Raids",
+    "paragraph": [
+      {
+        "title": "§5 - Les joueurs participant activement à un raid (que ce soit en attaquant ou en défendant) perdent la protection de RoE de tous les vaisseaux dans le système du raid pour la durée du raid.",
+        "content": []
+      }
+    ]
+  },
+  {
+    "title": "Événements JCJ (Joueur contre Joueur ou PvP)",
+    "paragraph": [
+      {
+        "title": "§6 - Pendant les événements JcJ actifs, tous les § ci-dessus du RoE sont suspendus, pour les vaisseaux et systèmes mentionnés dans la description de l'événement.",
+        "content": []
+      }
+    ]
+  },
+  {
+    "title": "Les ruptures de RoE",
+    "paragraph": [
+      {
+        "title": "§7 - En cas de rupture du RdE, résolvez le problème avec le contrevenant par Message Privé PM (si possible). Si le différend ne peut être résolu entre les parties concernées, contactez votre diplomate ou amiral de l'Alliance.",
+        "content": []
+      }
+    ]
+  },
+  {
+    "title": "Représailles",
+    "paragraph": [
+      {
+        "title": "§8 - Si vous êtes attaqué et illégalement pillé (tué OPC où cela est interdit (voir §3 + §4), l'attaquant est obligé de rembourser le montant du butin en envoyant son propre vaisseau OPC à la victime.",
+        "content": []
+      }
+    ]
+  },
+  {
+    "title": "KOS - Kill On Sight (tuer à vue)",
+    "paragraph": [
+      {
+        "title": "§9 - Ennemi marqué par l'alliance (KOS):",
+        "content": [
+          "Si une alliance ou un joueur est marqué comme KOS par votre alliance, ils ne sont pas protégés par le RoE.",
+          "Les représentants des alliances (Amiraux / Commodores) doivent annoncer à l'avance tout changement de diplomatie sur ou à partir du statut d'ennemi (KOS) : dans discord, Galaxy Chat en jeu ou par message privé à l'Amiral."
+        ]
+      }
+    ]
+  }
+]

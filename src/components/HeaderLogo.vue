@@ -7,7 +7,8 @@
           name: isRoeActive ? 'roe' : 'conduct',
           params: { locale: $route.params.locale },
         }"
-        ><p
+      >
+        <p
           class="logo-cover__text"
           @click="this.isRoeActive = !this.isRoeActive"
         >

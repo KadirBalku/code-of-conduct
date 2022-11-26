@@ -1,10 +1,12 @@
 <script>
 import EnLocale from "@/components/locales/roe/en.json";
 import DeLocale from "@/components/locales/roe/de.json";
+import FrLocale from "@/components/locales/roe/fr.json";
+
 export default {
   components: {},
   data() {
-    return { en: EnLocale, de: DeLocale };
+    return { en: EnLocale, de: DeLocale, fr: FrLocale };
   },
   computed: {
     selection() {
@@ -12,6 +14,8 @@ export default {
         return this.en;
       } else if (this.$route.params.locale === "de") {
         return this.de;
+      } else if (this.$route.params.locale === "fr") {
+        return this.fr;
       } else {
         return null;
       }
@@ -41,8 +45,9 @@ export default {
           </ul>
         </section>
       </template>
-    </section> </template
-  ><template v-else>Coming Soon...</template>
+    </section>
+  </template>
+  <template v-else>Coming Soon...</template>
 </template>
 <style scoped>
 #category {
